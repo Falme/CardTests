@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dcku73miw645n"]
 
-[ext_resource type="PackedScene" uid="uid://7btdl703yalp" path="res://prefabs/rank.tscn" id="1_gmig3"]
+[ext_resource type="PackedScene" uid="uid://7btdl703yalp" path="res://prefabs/card.tscn" id="1_gmig3"]
 
 [node name="Gameplay" type="Control"]
 layout_mode = 3
@@ -10,5 +10,5 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Rank" parent="." instance=ExtResource("1_gmig3")]
+[node name="Card" parent="." instance=ExtResource("1_gmig3")]
 layout_mode = 1
